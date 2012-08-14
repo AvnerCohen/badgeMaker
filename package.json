@@ -1,0 +1,12 @@
+{
+  "name": "coder-wall badges",
+  "description": "coder-wall badges",
+  "version": "0.0.2",
+  "author": "Avner Cohen <israbirding@gmail.com>",
+    "dependencies" : {
+        "ecstatic" : "~0.1.6"
+    },
+  "engines": {
+  	"node": "0.8.x",
+    "npm":  "1.1.x"}
+}

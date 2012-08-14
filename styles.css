@@ -1,0 +1,22 @@
+ul#coderwall{
+	list-style-type:none;
+	width:100px;
+	-webkit-padding-start:0px; /*What on earth?? */
+	}
+ul#coderwall li{
+	display:inline-block;
+}
+
+li img.badge:hover{
+	zoom:1.2;
+}
+
+li img.badge{
+width:65px;
+height:65px;
+border:none;
+zoom:1;
+ -webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+		 transition: all .2s ease-in;
+}
