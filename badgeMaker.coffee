@@ -10,3 +10,5 @@ badgeMaker =
 		for i in badges
 			innerHTML += badgeMaker.getTemplate(i)
 		document.getElementById("coderwall").innerHTML = innerHTML
+
+badgeMaker.generateBadges badgeContent

@@ -2,16 +2,17 @@
 <html>
 <head>
 <title>badgeMaker</title>
+ <link href="styles.css" media="screen" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="http://github.com/jashkenas/coffee-script/raw/master/extras/coffee-script.js"> </script>
-<script type="text/coffeescript" src="./badgeMaker.coffee"></script>
+<script type="text/coffeescript" src="badgeMaker.coffee"></script>
 <script>
-function delay(data){
- window.setTimeout(function(){
-                   badgeMaker.generateBadges(data)}, 500);
+var badgeContent = "";
+function setData(data){
+	badgeContent = data;
 };
 </script>
 
-<script type="text/javascript" src="http://coderwall.com/avnerner.json?callback=delay"></script>
+<script type="text/javascript" src="http://coderwall.com/avnerner.json?callback=setData"></script>
 </head>
 <body>
 <ul id="coderwall"></ul>

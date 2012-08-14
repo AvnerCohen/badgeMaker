@@ -1,7 +1,6 @@
 ul#coderwall{
 	list-style-type:none;
-	width:100px;
-	-webkit-padding-start:0px; /*What on earth?? */
+	width:260px;
 	}
 ul#coderwall li{
 	display:inline-block;
